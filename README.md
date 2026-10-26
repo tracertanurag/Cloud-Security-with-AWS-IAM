@@ -7,10 +7,11 @@ The project demonstrates how to manage identities, control permissions, configur
 
 
 Tools and concepts
-Project reflection
-In this project,  demonstrated how to use aws iam to control and  access and 
-permission on aws account
+
+
+
 Services I used were... Key concepts I learnt include...
+
  Launch EC2 instances.
   Use tags for easy identification.
  Set up IAM policies accessing EC2 instances based on their environment 
