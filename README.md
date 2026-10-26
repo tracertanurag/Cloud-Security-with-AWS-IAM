@@ -17,6 +17,7 @@ Services I used were... Key concepts I learnt include...
  
  Set up IAM policies accessing EC2 instances based on their environment 
 (development or production).
+
 Create an IAM user and assign them to the appropriate user group with 
 the necessary permissions for their role.
 
