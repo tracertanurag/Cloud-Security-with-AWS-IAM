@@ -30,5 +30,8 @@ Tags are key-value pairs attached to AWS resources to help identify, organize, a
 
 These tags help distinguish Development and Production instances and support environment-based access control when used with appropriate IAM policies.
 
+<img width="1876" height="295" alt="Screenshot 2026-10-25 103200" src="https://github.com/user-attachments/assets/53923abf-05ff-49c3-9608-deba27fb8d1e" />
+
+
 ## 🎯 Key Learning Outcome
 Learned how to manage AWS identities, apply least-privilege permissions, organize EC2 resources using tags, and implement environment-based access control.
