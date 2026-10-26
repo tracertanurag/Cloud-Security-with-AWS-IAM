@@ -22,3 +22,18 @@ Create an IAM user and assign them to the appropriate user group with
 the necessary permissions for their role.
 
  Test IAM access for the User you've created.
+
+ Tags
+What I did in this step
+
+Understanding tags
+
+My tag configuration
+In this step,  will lauch two EC2 instance so that we can increase  the compting 
+power
+
+Tags are simple labels or keywords attached to resources, like files, cloud 
+instances, or posts
+
+The tag I’ve used on my EC2 instances is called... The value I’ve assigned for my 
+instances are...Key- ENV , Value- Production and Developmen
