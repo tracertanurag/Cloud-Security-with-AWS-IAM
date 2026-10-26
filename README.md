@@ -40,4 +40,4 @@ Tags are simple labels or keywords attached to resources, like files, cloud
 instances, or posts
 
 The tag I’ve used on my EC2 instances is called... The value I’ve assigned for my 
-instances are...Key- ENV , Value- Production and Developmen
+instances are...Key- ENV , Value- Production and Development
