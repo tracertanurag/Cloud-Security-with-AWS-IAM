@@ -13,9 +13,11 @@ Tools and concepts
 Services I used were... Key concepts I learnt include...
 
  Launch EC2 instances.
-  Use tags for easy identification.
+ Use tags for easy identification.
+ 
  Set up IAM policies accessing EC2 instances based on their environment 
 (development or production).
-    Create an IAM user and assign them to the appropriate user group with 
+Create an IAM user and assign them to the appropriate user group with 
 the necessary permissions for their role.
+
  Test IAM access for the User you've created.
