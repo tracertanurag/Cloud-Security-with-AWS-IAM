@@ -33,5 +33,53 @@ These tags help distinguish Development and Production instances and support env
 <img width="1876" height="295" alt="Screenshot 2026-10-25 103200" src="https://github.com/user-attachments/assets/53923abf-05ff-49c3-9608-deba27fb8d1e" />
 
 
+## IAM Policies
+
+### What I did in this step
+
+In this step, wiil create an IAM policy that gives access to the development instance
+
+### Understanding IAM policies
+
+IAM policy is a rule for who can do what with your AWS resources. It's all about giving permissions to IAM users, groups, or roles, saying what they can or can't do on certain resources
+
+### The policy I set up
+
+For this project, I’ve set up a policy using JSON method.You can create and edit AWS policies in the visual editor or JSON.
+
+### Policy effect
+
+I’ve created a policy  allows some actions (like starting, stopping, and describing EC2 instances) for instances tagged with "Env = development" while denying the ability to create or delete tags for all instances.
+
+### Understanding Effect, Action, and Resource
+
+The Effect, Action, and Resource attributes of a JSON policy means...
+
+Version
+
+‍This means  2012-10-17 is the date of the latest policy version. This tells you whether the policy is up to date with the latest standards and practices.
+
+‍Statement
+
+‍The main part of the policy structure and defines a list of permissions.
+
+‍Effect
+
+‍This can have two values - either Allow or Deny - to indicate whether the policy allows or denies a certain action. Deny has priority. Looking at the first statement, "Effect": "Allow" means this statement is trying to allow for an action.
+
+‍Action
+
+‍A list of the actions that the policy allows or denies. In this case, "Action": "ec2:*" means all actions that you could possibly take on EC2 instances are allowed. Woohoo!
+
+‍Resource
+
+‍Which resources does this policy apply to? Specifying "*" means all resources within the defined scope (see the next point).
+
+Condition Block (optional)
+
+‍The circumstances under which the policy is in action. In this case, the condition is that the resource is tagged Env - development. This means specifying "Resource": "*" in the line above means all resources with the Env - development tag are impacted by your statement
+
+
+
 ## 🎯 Key Learning Outcome
 Learned how to manage AWS identities, apply least-privilege permissions, organize EC2 resources using tags, and implement environment-based access control.
