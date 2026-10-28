@@ -113,6 +113,9 @@ An Account Alias is a friendly name for your AWS account that you can use
 instead of your account ID (which is usually a bunch of digits) to sign in to the  
 AWS Management Console.
 
+<img width="1127" height="521" alt="image" src="https://github.com/user-attachments/assets/2fdd7fea-230d-4e85-8a24-ffdc317747c5" />
+
+
 ---
 
 ## 2️⃣ IAM Users and User Groups
