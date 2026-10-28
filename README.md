@@ -88,6 +88,72 @@ The Effect, Action, and Resource attributes of a JSON policy means...
 ‍The circumstances under which the policy is in action. In this case, the condition is that the resource is tagged Env - development. This means specifying "Resource": "\*" in the line above means all resources with the Env - development tag are impacted by your statement
 
 ---
+# 🚀 AWS IAM — Account Alias, Users & Groups
+
+---
+
+## 📌 My JSON Policy
+
+## 1️⃣ Account Alias
+
+### 📝 What I did in this step
+
+**Understanding account aliases**
+
+In this step,  will Simplify user login to your AWS account using an Account Alias.
+
+An Account Alias is a friendly name for your AWS account that you can use  
+instead of your account ID (which is usually a bunch of digits) to sign in to the  
+AWS Management Console.
+
+---
+
+## 2️⃣ IAM Users and User Groups
+
+### 📝 What I did in this step
+
+- Understanding user groups
+- Attaching policies to user groups
+- Understanding IAM users
+
+In this step, I will. Set up a dedicated IAM group for all  interns, so you can  
+manage all interns' permissions from one place.
+
+Set up a dedicated IAM user for your new intern, so they have a way to log in.
+
+IAM users are the people that will get access to your resources/AWS account, 
+whereas user groups are the collections/folders of users for easier user 
+management.
+
+I attached the policy I created to this user group, which means...grant them the 
+permissions associated with that group.
+
+IAM users  are which we can create of a particular user for access the AWS 
+resources.
+
+---
+
+## 3️⃣ Logging in as an IAM User
+
+### 📝 Sharing sign-in details
+
+The first way is...Send the sign-in details by email to the new user.
+
+Share the sign-in details manually by providing the username and temporary 
+password directly to the user through a secure channel
+
+---
+
+## 🎯 AWS IAM Learning Journey
+
+**Topics Covered**
+
+- Account Alias
+- IAM Users
+- IAM User Groups
+- Attaching Policies to User Groups
+- Logging in as an IAM User
+- Sharing Sign-in Details
 
 
 
