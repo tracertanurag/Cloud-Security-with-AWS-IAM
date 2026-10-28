@@ -126,10 +126,10 @@ AWS Management Console.
 - Attaching policies to user groups
 - Understanding IAM users
 
-In this step, I will. Set up a dedicated IAM group for all  interns, so you can  
+In this step, I will. Set up a dedicated IAM group , so you can  
 manage all interns' permissions from one place.
 
-Set up a dedicated IAM user for your new intern, so they have a way to log in.
+Set up a dedicated IAM user , to log in.
 
 IAM users are the people that will get access to your resources/AWS account, 
 whereas user groups are the collections/folders of users for easier user 
