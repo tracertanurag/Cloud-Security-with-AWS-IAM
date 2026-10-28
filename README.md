@@ -1,6 +1,4 @@
 # 🔐 AWS IAM Security 
-
-## 📌 Project Overview
 This repository focuses on implementing **AWS Identity and Access Management (IAM) security best practices** to secure cloud resources and manage access effectively.
 
 The project demonstrates hands-on implementation of IAM users, groups, roles, policies, permission boundaries, and the **Principle of Least Privilege**. It explores identity management, secure authentication, policy evaluation, and access control to reduce security risks and build a secure AWS environment.
