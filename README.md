@@ -87,12 +87,19 @@ The Effect, Action, and Resource attributes of a JSON policy means...
 
 ‍The circumstances under which the policy is in action. In this case, the condition is that the resource is tagged Env - development. This means specifying "Resource": "\*" in the line above means all resources with the Env - development tag are impacted by your statement
 
+## 📌 My JSON Policy
+
+<img width="1066" height="756" alt="Screenshot 2026-10-25 115022" src="https://github.com/user-attachments/assets/a66229bd-74f5-492a-9cf2-cb52a38b8a85" />
+
+
+
+
 ---
 # 🚀 AWS IAM — Account Alias, Users & Groups
 
 ---
 
-## 📌 My JSON Policy
+
 
 ## 1️⃣ Account Alias
 
