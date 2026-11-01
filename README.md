@@ -163,6 +163,51 @@ password directly to the user through a secure channel
 - Logging in as an IAM User
 - Sharing Sign-in Details
 
+### Observations from the IAM user dashboard
+
+![Image](https://nextwork.ai/passionate_purple_swift_fig/uploads/51a5fd24-7458-58a6-8653-9b90119a0e4a_6f2ab446)
+
+## Testing IAM Policies
+
+### What I did in this step
+
+In this step, will  Log into AWS using the intern's IAM user.
+
+Test the intern's access to your production and development instance.
+
+### Testing policy actions
+
+I tested my JSON IAM policy by...starting the ec2 instance and stoping the ec2 instance
+
+### Stopping the production instance
+
+When I tried to stop the production instance... This was because...IAM policy is set for accessing development EC2 instance
+
+![Image](https://nextwork.ai/passionate_purple_swift_fig/uploads/51a5fd24-7458-58a6-8653-9b90119a0e4a_0e7a9d6a)
+
+### Stopping the development instance
+
+Next, when I tried to stop the development instance... This was because...policy was created that user
+
+![Image](https://nextwork.ai/passionate_purple_swift_fig/uploads/51a5fd24-7458-58a6-8653-9b90119a0e4a_1811801c)
+
+## IAM Policy Simulator
+
+To extend my project, I'm going to... I'm doing this because...
+
+### Understanding the IAM Policy Simulator
+
+The IAM Policy Simulator is... It's useful for... test user access
+
+### How I used the simulator
+
+I set up a simulation for... The results were... I had to adjust..Under the Select service drop-down, select EC2. - Under the Select actions drop-down, select DeleteTags and StopInstances.
+
+![Image](https://nextwork.ai/passionate_purple_swift_fig/uploads/51a5fd24-7458-58a6-8653-9b90119a0e4a_069d8a621)
+
+---
+
+
 
 
 
