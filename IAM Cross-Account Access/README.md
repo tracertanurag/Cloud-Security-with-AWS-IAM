@@ -1,13 +1,8 @@
-IAM Cross-Account Access
+ Cross-Account IAM Role Architecture
 
-Overview
 
+##  Overview
 This project demonstrates how to implement cross-account access properly, the way it's done in production environments.
-
- 
-# AWS Organization – Cross-Account IAM Role Architecture
-
-## 1. Architecture Overview
 
 This architecture demonstrates how to implement **cross-account IAM role access using AWS Security Token Service (STS)** across multiple AWS accounts within an AWS Organization.
 
