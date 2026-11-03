@@ -2,6 +2,8 @@ IAM Cross-Account Access
 Overview
  This project demonstrates how to implement cross-account access properly, the way it's done in production environments.
 
+ 
+
 Architecture Diagram
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                         AWS ORGANIZATION                                     │
