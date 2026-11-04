@@ -104,7 +104,7 @@ It defines WHO is allowed to assume the IAM role.
     {
       "Effect": "Allow",
       "Principal": {
-        "AWS": "arn:aws:iam::111111111111:root"
+        "AWS": "arn:aws:iam::111111111111:security"
       }
     }
   ]
@@ -120,7 +120,6 @@ It defines WHO is allowed to assume the IAM role.
 | AWS | Identifies the trusted AWS account |
 | Action | Specifies `sts:AssumeRole` |
 
-**Important:** Using `arn:aws:iam::111111111111:root` as Principal delegates trust to the Security Account. It does not mean only the root user can assume the role. The source identity must also have permission to assume it.
 
 ---
 
