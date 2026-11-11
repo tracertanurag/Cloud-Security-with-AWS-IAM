@@ -27,9 +27,9 @@ This architecture demonstrates how to implement **cross-account IAM role access 
 │  │  │  └────────────────┘  │  │       │  │  │ Principal:     │  │  │        │
 │  │  └──────────────────────┘  │       │  │  │ 111111111111   │  │  │        │
 │  │                            │       │  │  │                │  │  │        │
-│  │                            │       │  │  │ Conditions:    │  │  │        │
-│  │                            │       │  │  │ ExternalId     │  │  │        │
-│  │                            │       │  │  │ MFA Required   │  │  │        │
+│  │                            │       │  │  │                │  │  │        │
+│  │                            │       │  │  │                │  │  │        │
+│  │                            │       │  │  │                │  │  │        │
 │  │                            │       │  │  └────────────────┘  │  │        │
 │  │                            │       │  └──────────────────────┘  │        │
 │  └────────────────────────────┘       └────────────────────────────┘        │
@@ -293,6 +293,4 @@ The three important components are:
 - Cross-Account IAM Roles
 - IAM Trust Policies
 - IAM Permission Policies
-- MFA
-- External ID
-- AWS CloudTrail
+
